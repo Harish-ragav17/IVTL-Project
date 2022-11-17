@@ -1,0 +1,85 @@
+#quest-screen-1-bg
+{
+    width: 100%;
+    height: auto;
+    background-color: aliceblue;
+    
+}
+#quest-screen-1_1
+{
+    height: 350px;
+    padding: 40px;
+}
+#quest-screen-1_1 textarea
+{
+    width: 100%;
+    height: 150px;
+    font-size: 20px;
+    resize: none;
+    margin-top: 20px;
+    border: 2px solid rebeccapurple;
+    padding: 10px;
+    background-color: rgb(222, 238, 252);
+}
+#quest-screen-1_1 textarea:hover
+{
+    border: 2px solid red;
+}
+#quest-screen-1_1 input
+{
+    margin-top: 20px;
+    width: 150px;
+    height: 44px;
+    background-color: rgb(21, 2, 2);
+    color: white;
+    font-size: 17px;
+    float: right; 
+    margin-right: -22px; 
+    justify-content: space-between;
+}
+#quest-screen-1_1 input:hover
+{
+    box-shadow: 0px 1px 11px rgb(69, 141, 64);
+}
+#quest-screen-1_2
+{
+    height: auto;
+    padding: 40px;
+}
+.prev-questions
+{
+    padding: 10px;
+    
+    height: auto;
+}
+.quest
+{
+    background-color: rgb(226, 240, 252);
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 18px;
+    height: auto;
+    width: 100%;
+}
+.quest:hover
+{
+    background-color: rgb(209, 234, 255);
+    border: 2px dotted black;
+    cursor: pointer;
+}
+#quest-date
+{
+    float: right;
+    color: red;
+}
+#back-btn
+{
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(64, 110, 247);
+}
+#back-btn:hover{
+    box-shadow: 1px 2px 15px 0px rgba(0,0,0,0.75);
+}

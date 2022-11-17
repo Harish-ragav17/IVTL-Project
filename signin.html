@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+        function close_error_dialoge()
+           {
+               document.getElementById("error").style.display="none";
+           }
+   </script>
+   <title >Developers</title>
+   <link rel="icon" href="./pics/icon.png" type="image/x-icon">
+</head>
+<body>
+    <header id="header">
+        <a href="./index.html" id="logo-link">Developers</a>
+    </header>
+     <div id="signin-form">
+             
+            <label id="text">Sign In</label>
+            <label class="form-text">Email Id</label>
+            <input class="form-input" type="text" id="Login-email" >
+            <label class="form-text">Password</label>
+            <input class="form-input" type="password" id="Login-pass" >
+             <input type="submit" id="submit2" class="submit-button1" value="Login">
+            <p id="new">New to here? <a href="signup.html">Signup</a></p> 
+            <div id="loader">
+            </div>   
+            
+    </div>
+    <div id="error">
+        <div id="error-head"><h3 style="display:inline;">Error</h3> <button onclick="close_error_dialoge()" ><img  src="https://img.icons8.com/color/48/000000/cancel--v1.png"/></button></div>
+        <h2 id="error-content-11">Email should not be empty.</h2>
+        <h2 id="error-content-12">Password should not be empty.</h2>
+        <h2 id="error-content-2">Please enter a valid email id</h2>
+        <h2 id="error-content-3">Password should contain atleast 8 characters.</h2>
+        <h2 id="error-content-5">User Not Found you can Try Again or Signup!</h2>
+        <h2 id="error-content-6">Wrong password please check your password.</h2>
+      </div>
+    
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>

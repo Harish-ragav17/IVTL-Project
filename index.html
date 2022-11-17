@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Home-style.css">    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+       <title>Developers</title>
+       <link rel="icon" href="./pics/icon.png" type="image/x-icon">
+</head>
+<body> 
+    <header id="header">
+        <a href="./index.html" id="logo-link">Developers</a>
+        <div id="login-link">
+            <a href="./index.html" class="links">Home</a>
+            <a href="." class="links">Services</a>
+            <a href="."  class="links" id="link-1" style="  border-bottom: 2px solid black;"></a>
+       
+            <a href="."   style="color:red; border: none; " onclick="logout()"><img id="logout-links" style="border:none;" title="Logout" src="https://img.icons8.com/fluency/48/000000/shutdown.png"/></a>   
+        </div>
+       
+    </header>
+   
+    <div id="home-screen-1-bg">
+        <div id="home-screen-1">
+            <label for="home-screen-1-btn"><h2>Let's Get Started</h2></label>
+            <a href="#pick">
+                <button id="home-screen-1-btn" >
+                    <img src="https://img.icons8.com/fluency/48/000000/forward.png"/>
+                </button> 
+            </a>
+            
+        </div>
+    </div id="pick">
+     <div id="pick" id="home-screen-2-bg">
+       
+        <div id="home-screen-2">
+            <h2 style="color:red;">Try Premium </h2>
+            <br>
+            <div id="premium-card">
+                Our experts will answer your questions <br> within 48 hours.
+                <h2>Benefits</h2>
+                <ol style="text-align:left; line-height: 30px;">
+                    <li>Professional answers within 48 hrs</li>
+                    <li>Special access</li>
+                    <li>Get expert's contact</li>
+                    <li>24/7 customer service</li>
+                </ol>
+            </div>
+            <div class="premium_card">
+                <h2 class="premium_card-offer" id="weekly">20% off</h2>
+                <h2 class="p_c_text">Weekly</h2>
+                <h3> <strike>$4.2 dollars</strike></h3>
+                <h3 class="offer-premium-price" id="offer_price_w"></h3>
+                <hr>
+                <button>Try now</button>
+            </div>
+            <div class="premium_card">
+                <h2 class="premium_card-offer" id="monthly">15% off</h2>
+                <h2 class="p_c_text">Monthly</h2>
+                <h3><strike>$12.4 dollars</strike></h3>
+                <h3 class="offer-premium-price" id="offer_price_m"></h3>
+                <hr>
+                <button>Try now</button>
+            </div>
+            <div class="premium_card">
+                <h2 class="premium_card-offer" id="yearly">10% off</h2>
+                <h2 class="p_c_text">Yearly</h2>
+                <h3><strike>$120.10 dollars</strike></h3>
+                <h3 class="offer-premium-price" id="offer_price_y"></h3>
+                <hr>
+                <button>Try now</button>
+            </div>
+        </div>
+     </div>
+    
+     <div style="margin-top:30px; color: rgb(201, 3, 3); font-weight:bold; font-size: 20px; text-align: center; background-color:rgb(238, 231, 231);height: 30px;padding: 10px;">
+        Try for free!
+     </div>
+    <div id="home-screen-3-bg">
+        <h3 id="pick">Pick below what do you want ?</h3>
+        <div id="home-screen-3">
+            <img src="./pics/think-home-2.jpg" alt="Think">
+            <div id="card-1" class="card">
+                <p class="card-title" >Want to ask your questions ?</p>
+                <p>You can ask your doubts with our experts. we are always ready to solve your doubts</p>
+                <h4>Questions asked : </h4><h4>100</h4>
+                <h4 style="color:green;">Questions answered : </h4><h4 style="color:green;"> 74</h4>
+                <hr><a href="./ask_quest.html"><button>Ask doubts</button></a>
+            </div>
+            <div id="card-2" class="card">
+                <p class="card-title">Ready to answer questions ?</p>
+                <p>Hurry up many developers are waiting for your answer,you have many questions to solve</p>
+                <h4>Questions yet to answer : </h4><h4>26</h4>
+                <h4 style="color:green;">Questions you answered : </h4><h4 style="color:green;"> 20</h4>
+                <hr><a href="./answer.html"><button >Answer</button></a>
+            </div>
+            <div id="card-3" class="card">
+                <p class="card-title">Want to practice problems ?</p>
+                <p> <b>Practice Problems</b> <br> You can solve problems to boost up your Knowledge, Interview questions are also available, this will helps to crack your interview.</p>
+                <h4 style="color:green;">Problems available : </h4><h4 style="color:green;"> 130</h4>
+                <hr> <a href="./practice_problems.html"><button >Practice problems</button></a>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div id="home-screen-4-bg">
+        <div id="home-screen-4">
+                <h2>Your Previous Questions</h2>
+                <div class="prev-questions">
+                   <a  href="./Answer_users.html"><div class="quest">
+                    <p id="quest-date">20-9-2022</p>
+                    <p>Currently I have some Python files which connect to an SQLite database for user inputs and then perform some calculations which set the output of the program. I'm new to Python web programming and I want to know: What is the best method to use Python on the web?</p>
+                  </div></a>
+                  <a  href="./Answer_users.html"> <div class="quest">
+                     <p id="quest-date">25-9-2022</p>
+                   <p>I have seen many people are using Nodejs with reactjs but I liked python and react so much that I wanted to know if I could python with react. If so could you please give me some links for learning that please</p>
+                   </div></a>
+                </div>
+        </div>
+    </div>
+    <hr>
+    <div class="chatting-bg">
+        <h3>Chat with experts</h3>
+        <div class="chat">
+            <div id="chat-persons">
+                <img  style="width:60px; display: block; margin-left: 160px;" src="https://img.icons8.com/fluency/96/000000/communication.png"/>
+                <a onclick="chat(1)">
+                    <div class="persons-div" style="margin-top:20px;">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-male-skin-type-7--v1.png"/>
+                    <h2>John</h2>
+                    <img style="float:right; width: 30px; margin-top: 5px; margin-right:8px;"  src="https://img.icons8.com/flat-round/64/000000/phone.png"/>
+                    </div>
+                </a>
+                <br>
+                <a onclick="chat(2)">
+                    <div class="persons-div">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-male-skin-type-7--v1.png"/>
+                    <h2>Marshal</h2>
+                    <img style="float:right; width: 30px; margin-top: 5px; margin-right:8px;"  src="https://img.icons8.com/flat-round/64/000000/phone.png"/>
+                    </div>
+                </a>
+                <br>
+                <a onclick="chat(3)">
+                    <div class="persons-div">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-male-skin-type-7--v1.png"/>
+                    <h2>Harish</h2>
+                    <img style="float:right; width: 30px; margin-top: 5px; margin-right:8px;"  src="https://img.icons8.com/flat-round/64/000000/phone.png"/>
+                    </div>
+                </a>
+                <br>
+                <a onclick="chat(4)">
+                    <div class="persons-div">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-male-skin-type-7--v1.png"/>
+                    <h2>Robert</h2>
+                    <img style="float:right; width: 30px; margin-top: 5px; margin-right:8px;"  src="https://img.icons8.com/flat-round/64/000000/phone.png"/>
+                    </div>
+                </a>
+            </div>
+            <div id="chat-box">
+                <div id="chat-box-head"> <img src="https://img.icons8.com/color/48/000000/circled-user-male-skin-type-7--v1.png"/> <h2 id="chat-box-head-name">Harish</h2> <img style="float:right; width: 30px; margin-top: 8px; margin-right:30px;"  src="https://img.icons8.com/flat-round/64/000000/phone.png"/></div>
+                 <hr style="border-bottom:2px solid black; border-top: none;">  
+                <div id="chat-box-content"></div>
+                <br>
+                <div id="chat-box-input">
+                    <input type="text" placeholder="Type here...">
+                    <input type="submit">
+                </div>
+                </div>
+        </div>
+    </div>
+    <div id="foot-details">
+        <div  id="foot-description">
+            <h3>OUR MOTTO</h3>
+             <p>Our Motto is to provide a solution for developers to develop their products <br>and boost up their stability </p>
+        </div>
+        <div id="foot-links" >
+            <img class="icons" id="icon-1" src="https://img.icons8.com/3d-fluency/100/000000/linkedin.png"/>
+            <img class="icons" id="icon-2" src="https://img.icons8.com/3d-fluency/100/000000/twitter-circled.png"/>
+            <img class="icons" id="icon-3" src="https://img.icons8.com/3d-fluency/100/000000/facebook-circled.png"/>
+            <img class="icons" id="icon-4" src="https://img.icons8.com/3d-fluency/100/000000/instagram-new.png"/>
+        </div>
+      
+    </div>
+    <script src="./Login.js"></script> 
+    <script src="./Home-script.js"></script> 
+     <footer id="footer">@Copyright 2022 </footer>
+</body>
+</html>

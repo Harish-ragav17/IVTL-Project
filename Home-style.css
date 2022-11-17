@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+head,body,footer{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    margin: 0;  
+    font-family: 'Open Sans', sans-serif;
+    scrollbar-width: thin;
+}
+   a
+   {
+    text-decoration: none;
+   }
+button:hover{
+    cursor: pointer;
+}
+#header
+{
+    height: 30px;
+    padding:10px ;
+    background-color: rgb(124, 7, 124);
+    border: 2px solid rgb(124, 7, 124);
+    border: none;
+}
+#header:hover{
+    box-shadow:2px 2px white;
+}
+#logo-link
+{
+    text-decoration: none;
+    display:inline;
+    margin-left: 30px ;
+    font-size: 20px;
+    font-weight:bold;
+    color:white;
+
+}
+
+#login-link{
+ 
+ display:inline;
+ float: right;
+ margin-right: 50px;
+}
+.links{
+    margin-right:15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+    font-size: 15px;
+}
+#logout-links
+{
+    width: 30px;
+    position: relative;
+    vertical-align: middle;
+}
+#logout-links:hover
+{
+    border: none;
+    box-shadow: 1px 2px 15px 0px rgba(211, 4, 4, 0.75);
+    border-radius: 50%;
+    background-color: rgba(211, 4, 4, 0.75);
+}
+#login-link :hover
+{
+    border-bottom:2px solid white;
+    transition: 0.1s;   
+}
+#home-screen-1-bg
+{
+    width: 100%;
+    height: 750px;
+    animation: img-sld 15s infinite step-end;
+    position: relative;
+    background-color: black;
+}
+@keyframes img-sld {
+    0%
+    {
+        background-image: url(./pics/1.png);
+        background-position: center;
+        background-size: cover;
+    }
+    8%
+    {
+        background-image: url(./pics/1.png);
+        background-position: center;
+        background-size: cover;
+    }
+    20%
+    {
+        background-image: url(./pics/2.png);
+        background-size: cover;
+    }
+    40%
+    {
+        background-image: url(./pics/3.png);
+        background-size: cover;
+    }
+    60%
+    {
+        background-image: url(./pics/4.png);
+        background-size: cover;
+    }
+    80%
+    {
+        background-image: url(./pics/5.jpg);
+        background-size: cover;
+    }
+    100%
+    {
+        background-image: url(./pics/6.jpg);
+        background-size: cover;
+    }
+}
+#home-screen-1
+{
+ box-shadow:-2px 1px 9px 2px rgba(0,0,0,0.48);
+ display: flex;
+ flex-direction: row;
+ position: absolute;
+ width:300px;
+ margin-left: 78%;
+ margin-top:20%;
+ padding: 7px;
+ align-items: center;
+ justify-content: center;
+ justify-items: center;
+ border-radius: 10px;
+ background-color: rgb(228, 232, 236);
+ opacity: 50%;
+}
+#home-screen-1-btn{
+    border:2px solid transparent;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 7px;
+    background-color: whitesmoke; 
+    border-radius: 50%;
+    color: red;
+    margin-left: 10px;
+}
+#home-screen-1:hover{
+    transition: 0.1s;
+    opacity: 90%;
+    color: black;
+    cursor: pointer;
+}
+#home-screen-2-bg
+{
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+}
+#home-screen-2
+{
+    padding: 30px;
+    display: flex;
+    background-color: rgb(227, 233, 255);
+    height: 350px;
+   
+}
+#premium-card
+{
+    text-align: center;
+    margin-top: 60px;
+    padding: 30px;
+    padding-right: 50px;
+    border-right: 2px solid rgb(0, 0, 0);
+}
+.premium_card
+{
+    margin-top: 70px;
+    margin-left: 70px;
+    padding: 30px;  
+    width: 170px;
+    height: 210px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(214, 216, 252);
+    
+}
+.offer-premium-price
+{
+    color: green;
+}
+.p_c_text
+{
+    margin-top: 40px;
+}
+.premium_card button
+{
+  width:80px;
+  height: 30px;
+  color: blue;
+}
+.premium_card-offer
+{
+  
+  margin-top: -26px;
+  margin-left: -150px;
+  color: red;
+  font-size: 15px;
+}
+#home-screen-3-bg
+{
+    background-color: white;
+    width: 100%;
+    height: 700px;
+}
+#home-screen-3-bg h3{
+    margin-left: 40%;
+    font-size: 23px;
+    padding-top:20px;
+}
+#home-screen-3
+{  height: 450px;
+   display: flex;
+   margin-top: 70px;
+}
+#home-screen-3 img
+{
+    height: 400px;
+    margin-left: 30px;
+}
+.card
+{
+    background-color: rgb(213, 232, 249);
+    margin-left: 40px;
+    height: 360px;
+    padding: 30px;
+    width: 228px;
+    justify-content: center;
+    text-align: center;
+    line-height: 25px;
+}
+#card-1:hover,#card-2:hover,#card-3:hover
+{
+    margin-top: 5px;
+    transition: 0.2s;
+    border: 1px solid black;
+}
+.card-title
+{
+    font-weight: bold;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+#home-screen-3 div h4{
+    display: inline-block;
+    color: red;
+}
+#home-screen-3 button
+{
+    margin-top: 10px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid green;
+    font-size: 15px;
+    text-align: center;
+    background: white;
+    color: black;
+}
+#home-screen-4-bg
+{
+   
+    height: auto;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+#home-screen-4
+{
+    padding: 10px;
+}
+.quest
+{
+    background-color: rgb(226, 240, 252);
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 18px;
+    height: auto;
+  
+}
+.quest:hover
+{
+    background-color: rgb(209, 234, 255);
+    border: 2px dotted black;
+    cursor: pointer;
+}
+.prev-questions
+{
+    padding: 10px;
+    height: auto;
+}
+#quest-date
+{
+    float: right;
+    color: red;
+}
+.chatting-bg
+{
+    background-color: rgb(241, 255, 255);
+    padding: 20px;
+}
+.chat
+{
+    padding: 10px;
+    display: flex;
+}
+.chat  h3
+{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+#chat-persons
+{
+   width: 600px;
+   margin-left: 40px;
+   padding: 20px;
+   border-right: 2px solid black;
+   padding-bottom: 50px;
+}
+#chat-persons a
+{
+    text-decoration: none;
+}
+.persons-div:hover
+{
+    box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.75);   
+}
+.persons-div
+{
+    background-color: rgb(220, 239, 255);
+    height: 40px;
+    padding: 3px;
+    margin-bottom: -8px;
+}
+.persons-div img{
+    width:40px;
+    vertical-align: -13px;
+}
+.persons-div h2
+{
+    display: inline;
+    font-size: 15px;
+}
+#chat-box
+{
+    margin-left: 25px;
+    width: 100%;
+    padding: 20px;
+    background-color:rgb(220, 239, 255);;
+}
+#chat-box-head h2
+{
+    display: inline;
+    font-size: 25px;
+    margin-left: 10px;
+}
+#chat-box-head img
+{
+    width: 45px;
+    vertical-align: -10px;
+}
+#chat-box-content
+{
+    height: 250px;
+}
+#chat-box-input input[type="text"]
+{
+    width: 790px;
+    height: 22px;
+    background-color: transparent;
+    padding: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+#chat-box-input input[type="submit"]
+{
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(71, 255, 182);
+    font-size: 15px;
+    border: none;
+}
+#chat-box-input input[type="submit"]:hover
+{
+    box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.75);  
+}
+#foot-details
+{
+ display: flex;
+ background-color: rgb(213, 160, 246);
+ height: 200px;
+ padding: 30px;
+}
+#foot-description
+{
+    width: 50%;
+}
+#foot-description {
+    border-right: 2px solid white;
+    padding: 20px;
+}
+#foot-links
+{
+    padding: 30px;
+}
+.icons
+{
+    width: 50px;
+    margin-left: 60px;
+    margin-top:40px;
+    padding: 5px;
+    border-radius: 30px;
+}
+#icon-1:hover,#icon-2:hover,#icon-3:hover,#icon-4:hover
+{
+    background-color:  rgb(186, 91, 245);
+    
+}
+#footer
+{
+    height: 15px;
+    padding: 15px;
+    align-items:center;
+    background-color: rgb(124, 7, 124);
+    color: azure;
+    text-align: center;
+}
