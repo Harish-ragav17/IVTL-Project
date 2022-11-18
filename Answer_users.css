@@ -3,15 +3,15 @@
     padding: 20px;
 }
 #back-btn
-{ 
-      margin-top: 50px;
+{
+    margin-top: 50px;
     margin-left: 30px;
     width: 40px;
     border-radius: 50%;
     background-color: rgb(64, 110, 247);
 }
 #back-btn:hover{
-     box-shadow: 1px 2px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 15px 0px rgba(0,0,0,0.75);
 }
 .Question_div
 {

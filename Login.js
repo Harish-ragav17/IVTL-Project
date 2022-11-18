@@ -1,5 +1,5 @@
 const username=window.localStorage.getItem("loggedin")
-if(username=="null")
+if(username=="null"||username==null)
 {
   window.location.href="signin.html"
 }else
@@ -8,5 +8,5 @@ if(username=="null")
 }
 function logout()
 {
-window.localStorage.setItem("loggedin","null")
+ window.localStorage.setItem("loggedin","null")
 }
