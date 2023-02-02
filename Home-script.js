@@ -2,7 +2,7 @@
 
 function offer_calculation()
 {
-  week_offer_percent=25;
+  week_offer_percent=30;
   monthly_offer_percent=15;
   yearly_offer_percent=15;
 
